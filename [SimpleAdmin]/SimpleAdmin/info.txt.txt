@@ -1,0 +1,7 @@
+
+#SimpleAdmin
+
+add_ace identifier.steam:11000010c18cdb5 simpleadmin.admin allow
+add_ace identifier.steam:11000010c18cdb5 simpleadmin.managecar allow
+add_ace identifier.steam:11000011ba310e4 simpleadmin.admin allow
+start SimpleAdmin
