@@ -1,7 +1,28 @@
 
 #SimpleAdmin
+#for groups
+# - - - - - - - - - - 
+#Sub
+add_ace group.supporter simpleadmin.supporter allow
+# Mod
+add_ace group.moderator simpleadmin.moderator allow
+# Admin
+add_ace group.moderator simpleadmin.admin allow
+# Dev
+add_ace group.developer simpleadmin.developer allow
+add_ace group.developer simpleadmin.managecar allow
+#----------------------------------------
+#Simple Admin Rechte System
+add_principal identifier.steam:[Your Steam HEX] group.developer
+#Für eine Person
 
-add_ace identifier.steam:11000010c18cdb5 simpleadmin.admin allow
-add_ace identifier.steam:11000010c18cdb5 simpleadmin.managecar allow
-add_ace identifier.steam:11000011ba310e4 simpleadmin.admin allow
+#add_ace identifier.steam:11000010c18cdb5 simpleadmin.supporter allow
+#add_ace identifier.steam:11000010c18cdb5 simpleadmin.moderator allow
+#add_ace identifier.steam:11000011ba310e4 simpleadmin.admin allow
+#add_ace identifier.steam:11000011ba310e4 simpleadmin.developer allow
+#add_ace identifier.steam:11000011ba310e4 simpleadmin.managecar allow # Erlaubt Autos an Donator zu geben, geht nur in verbindung mit einer anderen Rolle
+add_ace identifier.steam:11000010c18cdb5 simpleadmin.developer allow # ZickZackHD
+add_ace identifier.steam:11000010c18cdb5 simpleadmin.managecar allow # ZickZackHD
+#########################
+add_principal identifier.steam:[Your Steam HEX] group.admin #ZickzackHD
 start SimpleAdmin
