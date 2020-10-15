@@ -10,6 +10,7 @@ Fivem Admin-Tool
 + Give Weapon
 + Godmode
 + Fast run
++ custom permission system
 + ...
 
 
