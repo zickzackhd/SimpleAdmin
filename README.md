@@ -16,6 +16,9 @@ Fivem Admin-Tool
 
 **Requirements**
 [pNotify](https://github.com/Nick78111/pNotify)
+
+[es_extended](https://github.com/esx-framework/es_extended)
+[mysql-async](https://github.com/brouznouf/fivem-mysql-async)
 [NativeUI](included)(https://github.com/FrazzIe/NativeUILua)
 
 **Credits to the original Creator [https://github.com/Thymester/SimpleMenu)**
